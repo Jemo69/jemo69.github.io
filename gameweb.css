@@ -1,0 +1,106 @@
+body{
+  background-color: #1a334a;
+}
+.header{
+    background-image: radial-gradient(#1E536E,#6F71A1);
+    color: #27E6EC;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.jemo{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.info{
+    background-color: #1E536E;
+    display: flex;
+    flex-direction: column
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.starlogo{
+    width: 200px;
+    height: 200px;
+}
+#steamstar{
+    width:50px;
+    height: 50px;
+    color: #000000;
+}
+.star-steam{
+    display: flex;
+    align-items: center;
+    
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+}
+#stardiscord{
+    width: 50px;
+    height: 50px;
+    color: #7289DA;
+
+
+}
+.steamstarbutton{
+    background-color: #1E536E;
+    border-radius: 50px ;
+}
+.star-discord{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.discordstarbutton{
+    background-color: #1E536E;
+    border-radius: 50px;
+    
+    
+}
+.savelogo{
+    width: 200px;
+    height: 200px;
+}
+.games{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: #6F71A1;
+    gap: 5px;
+    color: #000;
+
+}
+
+.bottom{
+    background-color: #1E536E;
+}
+.youtube{
+    height: 10px;
+    width: 10px;
+    color: #000;
+}
+#discord,.youtube,.Instagram{
+    height: 30px;
+    width: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
